@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Inicio- Goodfood, Goodmood</title>
+    <meta
+      name="description"
+      content="Nuestro objetivo es ayudar a todos nuestros usuarios cuando no saben que cocinar o quieren implementar nuevas recetas "
+    />
+    <meta
+      name="keywords"
+      content="Goodfood, Goodmood, recetas fáciles, rápidas, ricas"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo pag.png"
+      alt="logo de la pagina Goodfood, Goodmood"
+    />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--Animate.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- inicio barra de navegación-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            >Goodfood, <br />
+            Goodmood</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/sobre_nosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/recetas.html">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- fin barra de navegación-->
+
+    <!-- inicio portada-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/images/portada.jpg"
+            class="d-block w-100"
+            alt="bowl con salmón y ensalada"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/portada2.jpg"
+            class="d-block w-100"
+            alt="plato con uvas, higos, almendras, huevo, aceitunas, queso y jamón"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/portada3.jpg"
+            class="d-block w-100"
+            alt="desayuno saludable, café, higos, huevo y tostada con palta"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- fin portada-->
+
+    <!-- SOBRE NOSOTROS-->
+    <!-- inicio "sobre nosotros"-->
+    <secttion class="sobre-nosotros">
+      <h2 class="text-center my-5">Quiénes somos</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
+            <p>
+              "Good food, Goodmood", surge a través de la idea de querer crear
+              un sitio web donde todos los usuarios tengan la posibilidad de
+              poder buscar recetas sanas, ricas y fáciles de preparar.
+            </p>
+            <p>
+              Además, dentro de este sitio todos podrán interactuar compartiendo
+              sus propias recetas, o comentando y probando recetas de otros. De
+              esta forma se creará una gran comunidad de usuarios apasionados
+              por innovar recetas.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
+            <img
+              src="assets/images/imggg.jpg"
+              class="img-fluid"
+              alt="bowls con hummus y ensalada"
+            />
+          </div>
+        </div>
+      </div>
+    </secttion>
+    <!-- fin "sobre nosotros"-->
+
+    <!--RECETAS-->
+    <!-- inicio "recetas"-->
+    <section class="recetas">
+      <h2 class="text-center my-5 text-light">Recetas</h2>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="card shadow animate__animated animate__fadeIn">
+              <img
+                src="assets/images/img.jpg"
+                class="card-img-top"
+                alt="Chana Masala, plato con garbanzos"
+              />
+              <div class="card body">
+                <h5 class="card-title">Chana Masala</h5>
+                <p class="card-text">
+                  La chana masala es un plato típico de la cocina del norte de
+                  la India cuyo principal ingrediente es el garbanzo. Se trata
+                  de un plato muy especiado con un sabor cítrico bastante ácido.
+                </p>
+                <a href="pages/recetas.html" class="btn btn-info">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="card shadow animate__animated animate__fadeIn">
+              <img
+                src="assets/images/imgg.jpg"
+                class="card-img-top"
+                alt="Ensalada de coliflor"
+              />
+              <div class="card body">
+                <h5 class="card-title">Cauliflower Salad</h5>
+                <p class="card-text">
+                  Esta ensalada de coliflor asada es en realidad una obra de
+                  teatro. La combinación de coliflor asada, huevo escalfado y
+                  limón proporcionan el acompañamiento perfecto para que quede
+                  más suave y deliciosa.
+                </p>
+                <a href="pages/recetas.html" class="btn btn-info">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+            <div class="card shadow animate__animated animate__fadeIn">
+              <img
+                src="assets/images/imgggg.jpg"
+                class="card-img-top"
+                alt="Gambas al ajillo"
+              />
+              <div class="card body">
+                <h5 class="card-title">Gambas al Ajillo</h5>
+                <p class="card-text">
+                  Las gambas al ajillo, como se denominan en España, son un
+                  plato popular de la cocina española. Los ingredientes que
+                  constituyen este plato son gambas peladas, ajo y aceite de
+                  oliva.
+                </p>
+                <a href="pages/recetas.html" class="btn btn-info">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fin "recetas"-->
+
+    <!--BLOG-->
+    <!-- inicio "blog"-->
+    <section class="contenedor">
+      <h2 class="text-center my-5">Que dicen nuestros usuarios</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="assets/images/BeFunky-photo (37).jpg" alt="Imagen hombre" />
+          <div class="contenido-texto-card">
+            <h4>Fáciles y prácticas!</h4>
+            <p>
+              No me gusta cocinar, pero encontré muchas recetas prácticas que me
+              solucionan la vida. Muy recomendable.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/face2.jpg" alt="Imagen mujer" />
+          <div class="contenido-texto-card">
+            <h4>Que delicia!</h4>
+            <p>Muy ricas cada una de estas recetas, las recomiendo mucho!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a href="pages/blog.html" class="btn btn-info container-fluid">Ver más</a>
+    <!-- fin "blog"-->
+
+    <!-- inicio pie de pagina -->
+    <div class="row">
+      <footer class="py-3 my-4 align-content-center">
+        <section class="pie-de-pagina">
+          <h3 class="text-center my-5 text-light">
+            También nos podes encontrar en:
+          </h3>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/">
+                <img
+                  src="assets/icons/icons8-facebook (2).svg"
+                  alt="icono de facebook"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img
+                  src="assets/icons/icons8-instagram (1).svg"
+                  alt="icono de instagram"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/">
+                <img
+                  src="assets/icons/icons8-twitter (1).svg"
+                  alt="icono de twitter"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.pinterest.com/">
+                <img
+                  src="assets/icons/icons8-pinterest (1).svg"
+                  alt="icono de pinterest"
+                />
+              </a>
+            </li>
+          </ul>
+          <p class="text-center text-light">&copy;Goodfood,Goodmood2023</p>
+        </section>
+      </footer>
+    </div>
+    <!-- fin pie de pagina -->
+
+    <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+/* PARTIALS */ /* Variables_generales */ /* Paddings y Margins */ /* Fuentes */ /* Colores */ /* Texto */ /* Caracteristicas del Contenido e Items */ /* SOBRE NOSOTROS */
+.sobre-nosotros {
+  text-align: justify;
+  line-height: 2.5em;
+}
+
+/* RECETAS */
+.recetas {
+  background-color: rgb(39, 39, 41);
+  text-align: justify;
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 6s;
+}
+
+body {
+  background: #ECE9E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 16px;
+}
+
+/* CLIENTES */
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards .card {
+  background: rgb(39, 39, 41);
+  display: flex;
+  width: 46%;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  display: block;
+}
+
+.cards .card > .contenido-texto-card {
+  width: 60%;
+  color: #FFFFFF;
+}
+
+.cards .card > .contenido-texto-card p {
+  font-weight: 300;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  /* CLIENTES */
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards .card {
+    width: 90%;
+  }
+  .cards .card:first-child {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* CLIENTES */
+  .cards .card {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards .card img {
+    width: 90px;
+    height: 90px;
+  }
+}
+.pie-de-pagina {
+  background-color: rgb(39, 39, 41);
+  text-align: center;
+  height: 90%;
+}
+
+/*# sourceMappingURL=styles.css.map */

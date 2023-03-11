@@ -1,0 +1,16 @@
+/* PARTIALS */
+@import "utilities/variables_generales";
+@import "utilities/paddings_y_margins";
+@import "utilities/mixins";
+
+@import "base/fuentes";
+@import "base/colores";
+@import "base/texto";
+@import "base/caracteristicas_del_contenido_e_items";
+
+@import "views/sobre_nosotros";
+@import "views/recetas";
+
+@import "layout/body";
+@import "layout/cards";
+@import "layout/pie_de_pagina";
